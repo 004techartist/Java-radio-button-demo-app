@@ -86,7 +86,7 @@ public class ImageRadioButtonQuiz extends JFrame {
 
             ImageIcon imageIcon = new ImageIcon(imagePaths[currentIndex]);
             Image image = imageIcon.getImage();
-            Image scaledImage = image.getScaledInstance(216, 216, Image.SCALE_SMOOTH); // 3 inches = 72 * 3 pixels
+            Image scaledImage = image.getScaledInstance(216, 216, Image.SCALE_SMOOTH);
             imageIcon = new ImageIcon(scaledImage);
             imageLabel.setIcon(imageIcon);
             selectionMessageLabel.setText("You selected: ");  
